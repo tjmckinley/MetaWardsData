@@ -9,7 +9,6 @@
   "position"           : "CBB2011.dat",
   "seed"               : "seeds.dat",
   "nodes_to_track"     : "seeds.dat",
-  "additional_seeding" : "ExtraSeedsBrighton.dat",
   "uv"                 : null,
   "weekend"            : null,
   "identifier"         : null,
