@@ -26,7 +26,8 @@ else
 fi
 
 # Get the branch used for this repository using the command git branch --show-current
-branch=$(git branch --show-current 2> /dev/null)
+branch=$(git branch 2> /dev/null | grep '*')
+branch=${branch##* }
 
 if [ ! -z $branch ];
 then
