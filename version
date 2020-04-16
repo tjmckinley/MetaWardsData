@@ -31,9 +31,23 @@ branch=${branch##* }
 
 if [ ! -z $branch ];
 then
-   echo -n "\"branch\": \"$branch\"" >> version.txt
+   echo -n "\"branch\": \"$branch\"," >> version.txt
 else
-   echo -n "\"branch\": None" >> version.txt
+   echo -n "\"branch\": None," >> version.txt
+fi
+
+# Get whether or not this data is dirty - this will return
+# 0 if the git command exists and the directory is clean
+# We assume that any directory that is not under git
+# is dirty
+git diff --quiet
+status=$?
+echo $status
+if [ status != 0 ];
+then
+   echo -n "\"is_dirty\": true" >> version.txt
+else
+   echo -n "\"is_dirty\": false" >> version.txt
 fi
 
 echo -n "}" >> version.txt
