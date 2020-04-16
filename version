@@ -42,7 +42,6 @@ fi
 # is dirty
 git diff --quiet
 status=$?
-echo $status
 if [ $status != 0 ];
 then
    echo -n "\"is_dirty\": true" >> version.txt
@@ -51,4 +50,6 @@ else
 fi
 
 echo -n "}" >> version.txt
+
+cat version.txt
 
