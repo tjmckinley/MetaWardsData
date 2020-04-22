@@ -4,6 +4,7 @@
   "contact(s)"         : "l.danon@bristol.ac.uk",
   "reference(s)"       : "...",
   "work"               : "EW1.dat",
+  "work_size"          : "WorkSize.dat",
   "play"               : "PlayMatrix.dat",
   "play_size"          : "PlaySize.dat",
   "position"           : "CBB2011.dat",
