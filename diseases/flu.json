@@ -1,10 +1,11 @@
 { "name"             : "Influenza",
-  "version"          : "March 29th 2020",
+  "version"          : "April 23rd 2020",
   "author(s)"        : "Leon Danon",
   "contact(s)"       : "l.danon@bristol.ac.uk",
   "reference(s)"     : "references...",
   "beta"             : [0.0, 0.0, 0.5, 0.5, 0.0],
   "progress"         : [1.0, 1.0, 0.5, 0.5, 0.0],
   "too_ill_to_move"  : [0.0, 0.0, 0.5, 0.8, 1.0],
-  "contrib_foi"      : [1.0, 1.0, 1.0, 1.0, 0.0]
+  "contrib_foi"      : [1.0, 1.0, 1.0, 1.0, 0.0],
+  "start_symptom"    : 2
 }
