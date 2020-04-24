@@ -8,6 +8,7 @@
   "play"               : "PlayMatrix.dat",
   "play_size"          : "PlaySize.dat",
   "position"           : "CBB2011.dat",
+  "coordinates"        : "x/y",
   "seed"               : "seeds.dat",
   "nodes_to_track"     : "seeds.dat",
   "uv"                 : null,
