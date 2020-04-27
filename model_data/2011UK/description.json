@@ -9,6 +9,8 @@
   "play_size"          : "Playsize.dat",
   "position"           : "CBBUK.dat",
   "coordinates"        : "lat/long",
+  "lookup"             : "Ward_Lookup.csv",
+  "lookup_columns"     : {},
   "seed"               : null,
   "nodes_to_track"     : null,
   "uv"                 : null,
