@@ -1,0 +1,1 @@
+powershell -executionpolicy bypass -File .\version_data.ps1
